@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CS-II Page</title>
+
+    <style>
+
+      body {
+	  background-color: #ac7339;
+	  text-align:center;
+	  font-size:35px;
+      }
+      
+      header {
+	  background-image: url('7e9139b33f05c4dec2b85fa5af07ebb8.png'); 
+	 text-align:center;
+	 color:black;
+	 padding: 30px;
+     }
+
+     article{
+	 background-color: #FFEBCD;
+	 padding: 3px;
+	 text-align:center;
+	 font-size:20px;
+	 color:black;
+     }
+
+
+    </style>
+  </head>
+  
+  <body>
+    
+    <header>
+      <p style="text-align:right;font-size:35px;"><a href="https://www.codermerlin.com/users/hoang-nguyen/Digital%20Portfolio/index.html">&#127968;</a></p>          
+      <h1>CS-II Page</h1>
+    </header>
+    
+    
+    <article>	
+      <p>What I accomplished in CS-II!</p>
+      </article>
+    
+    <p><a href="https://www.codermerlin.com/users/hoang-nguyen/Digital%20Portfolio/CS-II/Essays/index.html">Essays</a></p>
+    <iframe src="https://www.codermerlin.com/users/hoang-nguyen/Digital%20Portfolio/CS-II/Essays/index.html">
+    </iframe>
+
+    <p><a href="https://www.codermerlin.com/users/hoang-nguyen/Digital%20Portfolio/CS-II/Projects/index.html">Projects</a></p>
+    <iframe src="https://www.codermerlin.com/users/hoang-nguyen/Digital%20Portfolio/CS-II/Projects/index.html">
+    </iframe>
+    
+  </body>
+</html>
+
+      

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CS-I</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+    <style>
+     * {
+	 box-sizing: border-box;
+     }
+     body {
+	 background-color:#ac7339;
+     }
+
+     /*Style the header */
+     header {
+	 background-color: #FFE4C4;
+	 padding: 30px;
+	 text-align:center;
+	 font-size:35px;
+	 color:black;
+     }
+
+     /* Create two columns/boxes that floats next to each pther */
+     nav{
+	 float: left;
+	 width: 30%;
+	 height: 550px;
+	 background: #FFEBCD;
+	 padding: 20px;
+     }
+
+     /* Style the list inside the menu */
+     nav ul {
+	 list-style-type: none;
+	 padding: 0;
+     }
+
+     article {
+     	 float: left;
+	 width: 70%;
+	 height: 550px;
+	 background-color: #FFFAF0;
+	 padding: 20px;
+     }
+
+     /* Clear floats after the columns */
+     section::after{
+	 content:"";
+	 display: table;
+	 clear: both;
+     }
+
+     /* Style the footer */
+     footer {
+	 background-color: #FFF8DC;
+	 padding: 10px;
+	 text-align: center;
+	 color: black;
+     }
+
+     /* Reponsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+     @media (max-width: 600px) {
+	 nav, article {
+	     width: 100%;
+	     height: auto;
+	 }
+     }
+    </style>
+  </head>
+
+  <body>
+
+    <header>
+      <p style="text-align:right; font-size: 35px;"><a href="https://www.codermerlin.com/users/hoang-nguyen/Digital%20Portfolio/index.html"><img src="home logo.png" width="80" height="70"/></a> &nbsp; <a href="https://github.com/preston-hnguyen/preston-hnguyen.github.io"><img src="github.png" alt="github logo" width="80" height="70"/></a></p>          
+      <h2>CS-I</h2>
+    </header>
+
+    <section>
+      <nav>
+	<ul>
+	  <h2><a href="index.html">CS-I Page</a></h2>
+	  <h2><a href="Isp.html">ISP of CS-I</a></h2>
+	</ul>
+      </nav>
+
+      <article>
+	<h1>What did I learn last year in CSI?</h2>
+<p style="font-family:serif;font-size:20px;">Last year, I struggled a lot with computer science and almost failed the class in the second semester. However, I did try to do my every best to manage my time and work between classes, including computer science. I did not really learn much last year in this class, but I learned how to make a function to draw and work it out. Arrays was also something I really understood in class, working with html was also really fun and easier than swift, besides those, loops confused me a lot. After many strugglings and failures, I tried to study and understand other people’s codes more, but I still am not good at building up codes.</p>
+<h1>How did I get help?</h1>
+<p style="font-family:serif;font-size:20px;">I went to tutoring in the morning to get help from teachers. By the way, shout out for Mr.Ben, he really helped me with coding part and he explained it really well. In other classes, I also had a lot of friends that was also in computer science to help me out a lot. Furthermore, the internet became my biggest resources for help, it has all the things that I need, things are also easily accessible and found on the internet.</p>
+<h1>What made me want to take CSII?</h1>
+<p style="font-family:serif;font-size:20px;">By the time we got to pick the class for this year, I decided to take this class again because I really like to challenge myself more and learn more things in this class, even though I struggled a lot last year and was really stressed about this class. In the same way, I am still struggled with this class with overdued assignments that I am working on, but I actually learned more things, especially html.</p>
+  
+      </article>
+      
+    </section>
+
+    <footer>
+      <h3>Thank you for reading!</h3>
+    </footer>
+
+  </body>
+</html>
+
+      

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ISP of CS-I</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+    <style>
+     * {
+	 box-sizing: border-box;
+     }
+     body {
+	 background-color: #ac7339;
+     }
+
+     /*Style the header */
+     header {
+	 background-color: #FFE4C4;
+	 padding: 30px;
+	 text-align:center;
+	 font-size:35px;
+	 color:black;
+     }
+
+     /* Create two columns/boxes that floats next to each pther */
+     nav{
+	 float: left;
+	 width: 30%;
+	 height: 550px;
+	 background: #FFEBCD;
+	 padding: 20px;
+     }
+
+     /* Style the list inside the menu */
+     nav ul {
+	 list-style-type: none;
+	 padding: 0;
+     }
+
+     article {
+     	 float: left;
+	 width: 70%;
+	 height: 550px;
+	 background-color: #FFFAF0;
+	 padding: 20px;
+     }
+
+     /* Clear floats after the columns */
+     section::after{
+	 content:"";
+	 display: table;
+	 clear: both;
+     }
+
+     /* Style the footer */
+     footer {
+	 background-color: #FFF8DC;
+	 padding: 10px;
+	 text-align: center;
+	 color: black;
+     }
+
+     /* Reponsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+     @media (max-width: 600px) {
+	 nav, article {
+	     width: 100%;
+	     height: auto;
+	 }
+     }
+    </style>
+  </head>
+
+  <body>
+
+    <header>
+      <p style="text-align:right; font-size: 35px;"><a href="https://www.codermerlin.com/users/hoang-nguyen/Digital%20Portfolio/index.html"><img src="home logo.png" width="80" height="70"/></a> &nbsp; <a href="https://github.com/preston-hnguyen/preston-hnguyen.github.io"><img src="github.png" alt="github logo" width="80" height="70"/></a></p>          
+      <h2>ISP of CS-I</h2>
+    </header>
+
+    <section>
+      <nav>
+	<ul>
+	  <h2><a href="index.html">CS-I Page</a></h2>
+	  <h2><a href="CS-I.html">CS-I</a></h2>
+	</ul>
+      </nav>
+
+      <article>
+	<h1>What was the concept?</h1>
+	<p style="font-family:serif;font-size:20px;">The point of the game is to tell people facts, even simple facts to fun facts. This game contains questions of any topic that you want to play. To win the game, players will have to do their best and pick the right answer to get points. It also academically teach people knowledge that they did not know before and any fun facts that not much people know about. Many people play this game for entertainment and students could even make up their own topic and use this game as a fun quiz to study instead of writing flash cards.</p>
+	<h1>What was the motivation?</h1>
+	<p style="font-family:serif;font-size:20px;">Trivia game has been transformed into many different things as like, game shows, board games etc. It’s been around since 1965 and from then has grown tremendously, we definitely must play this game at least once in our lives. It was one of our favorite childhood games. For this reason, we decided to recreate it, we wanted to know how this game was built. Also, we wanted to maybe show the structure of code in this game, they actually could practice making their own game, even about school, it would have more fun to study a quizlet.</p>
+	<h1>How it ended?</h1>
+	<p style="font-family:serif;font-size:20px;">Unfortunately, we finished everything but the code. We were able to present to the class. However, the code was not completed and we didn't know how to run it.</p>
+ 
+      </article>      
+    </section>
+
+    <footer>
+      <h3>Thank you for reading!</h3>
+    </footer>
+
+  </body>
+</html>
+
+      

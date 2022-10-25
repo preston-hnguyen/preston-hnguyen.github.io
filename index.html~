@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home Page</title>
+    <meta charset="utf-8">
+    <style>
+
+      body {
+	  background-color: #ac7339; 
+      }
+      
+    header {
+	 text-align:center;
+	 color:black;
+	 padding: 30px;
+	 background-image: url('7e9139b33f05c4dec2b85fa5af07ebb8.png');
+     }
+
+     nav{
+	 background-color: #FFEBCD;
+	 padding: 3px;
+	 text-align:center;
+	 font-size:20px;
+	 color:black;
+     }
+
+     article {
+	 background-color: none;
+	 color: black;
+	 border: 2px solid black;
+	 margin: 20px;
+	 padding: 20px;
+	 text-align: center;
+	 width: auto;
+     }
+
+    </style>
+  </head>
+  
+  <body>
+    
+    <header>
+      <p style="text-align:right;font-size:35px;"><a href="https://github.com/preston-hnguyen/preston-hnguyen.github.io"><img src="github.png" alt="github logo" width="80" height="70"/></a></p>
+      <p style="font-size:90px;"><b>Preston's Digital Portfolio</b></h1>
+</header>
+    
+    
+    <nav>	
+      <p><a href="https://www.codermerlin.com/users/hoang-nguyen/Digital%20Portfolio/About%20Me/index.html">About Me Page</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.codermerlin.com/users/hoang-nguyen/Digital%20Portfolio/CS-I/index.html">CS-I Page</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.codermerlin.com/users/hoang-nguyen/Digital%20Portfolio/CS-II/index.html">CS-II Page</a> </p>
+      </nav>
+    
+    <article>
+      <p>Hey! My name is Hoang Nguyen (AKA Preston)! This where I am going to share all works I have accomplished in this class.</p>
+      <p>You can have access to see all my works with the link bar above. </p>
+      <p>With this <a href="https://github.com/preston-hnguyen/preston-hnguyen.github.io">link</a> or the icon on the top right of this page, you can also view my github.</p>
+      <p>There will be icons to navigate either back to the home page or my github profile.</p>
+      <p>Thank you so much for viewing my portfolio!</p>
+    </article>
+
+    <p style="text-align: center;"> <img src="Attachment-1.png">  </p>
+    
+  </body>
+</html>
+
+      

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AI Sentience</title>
+    <meta charset="utf-8">
+    <style>
+    body {
+	text-align: center;
+	font-size: 17px;
+	background-color: #FFEBCD;
+	line-height: 2;
+    }
+
+    div {
+	max-width: 1000px;
+ 	margin: auto;
+    }
+    
+    header {
+	background-color:#FFFAF0;
+	text-align: center;
+	padding: 30px;
+    }
+
+    nav{
+	 background-color: #FFE4C4;
+	 padding: 3px;
+	 text-align:center;
+	 font-size:20px;
+	 color:black;
+    }
+    
+    </style>
+  </head>
+
+  <header>
+    <h1>AI Sentience Essay</h1>
+  </header>
+
+  <nav>
+    <p><a href="https://www.codermerlin.com/users/hoang-nguyen/Digital%20Portfolio/index.html">Home Page</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.codermerlin.com/users/hoang-nguyen/Digital%20Portfolio/index.html">CS-II Page</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="index.html">Essays Page</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="Fingerprints.html">Fingerprints</a>  </p>
+  </nav>
+  
+  <div>
+  <body>
+    <h2>AI Sentience</h2>
+    <p>Hoang P. Nguyen</p>
+    <p>Allen High School STEAM Campus</p>
+    <p>Prof. Benyaakov</p>
+    <p>October 6th, 2022</p>
+    <br>
+    <br>
+    <h2 style="text-align:left;">What is AI?</h2>
+    <p>Artificial Intelligence, aka AI, machines that mimic human intelliegnece, they can perform tasks with such as translating, generate social medias, blog posts or even articles, it could so smart to even help to make vaccines and breakdown structure of an element, just like a human or even better. This was even discover way back in the 1950s, the founders of these new creations back then predicted it would even improve to something way smarter. Nowadays, people believe it would improve and make the world better or worse.</p>
+    <p>Just like human, they have flaws. As it continue to improve, it could spread misinfomation across the internet, such as fake text and images. It could mimic the conversation with chatbots.</p>
+    <h2 style="text-align:left;">What are the benefits?</h2>
+    <p>This smart technology could help people throughout their careers. For instance, DALL-E 2, it turns text into realistic images, it starts with random series of pixels and refines it to match the text description. This could potentially make a living for illustrators, graphic designers, photographers and etc.</p>
+    <p>Even more advanced, the technology could suprisingly help the medical field. DeepMind's AlphaFold (an AI system) predicted the three-dimensional structure of proteins from one-dimensional amino acid sequences by using deep neural network, which was a problem for biologists to figure it out after decades. The company also announced that AlphaFold predicted over 200 million proteins known to exist, which will help the medical researchers to develop new drugs and vaccines.</p>
+    <h2 style="text-align:left;">What are the diadvantages?</h2>
+    <p>As this technology is improving, it no longer is controlled by its creator. Some community in the industry is even scared of how it would be sentient and how it would think like a human that can generate and improve itself from its own mistakes. An AI system called Desdemona could be a lead vocal in a music band has shown signs of intelligence, consciousness or sentience, but it is not ture that labs built robots that can emote and converse and jam on like a real human, but it does have the power of misleading people. Some people are scared one day AI would become conscious and sentient that could lead a disaster. However, this is not true and it is a nonsense thinking.</p>
+    <p>But, for a fact this technology could make tweets and posts, it is getting better at conversations. It could spit out complete nonsense and spread misinformation on the internet. Many people find themselves talking to this technology as if they were talking to a real human. A lot of times, AI researchers cannot differentiate if they were talking to a bot or a human.</p>
+    <p>With the ability to potentially reproduce human intelligence, translate, recognize images, speech, and complete useful cognitive tasks. It could work and operate itself and need no human to improve the technology. This make people think and scared that it would one day destroy the world, since it has reached point where its creator can't control it.</p>
+    <br>
+    <br>
+    <h2>References</h2>
+    <p>Metz, C. (2022, August 5). A.I. is not sentient. why do people say it is? The New York Times. Retrieved October 6, 2022, from https://www.nytimes.com/2022/08/05/technology/ai-sentient-google.html</p>
+    <p>Roose, K. (2022, August 24). We need to talk about how good A.I. is getting. The New York Times. Retrieved October 6, 2022, from https://www.nytimes.com/2022/08/24/technology/ai-technology-progress.html</p>
+    </div>
+  </body>
+  </html>

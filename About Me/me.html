@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Me</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+    <style>
+     * {
+	 box-sizing: border-box;
+     }
+     body {
+	 background-color:#ac7339;
+     }
+
+     /*Style the header */
+     header {
+	 background-color: #FFE4C4;
+	 padding: 30px;
+	 text-align:center;
+	 font-size:35px;
+	 color:black;
+     }
+
+     /* Create two columns/boxes that floats next to each pther */
+     nav{
+	 float: left;
+	 width: 30%;
+	 height: 400px;
+	 background: #FFEBCD;
+	 padding: 20px;
+     }
+
+     /* Style the list inside the menu */
+     nav ul {
+	 list-style-type: none;
+	 padding: 0;
+     }
+
+     article {
+     	 float: left;
+	 width: 70%;
+	 height: 400px;
+	 background-color: #FFFAF0;
+	 padding: 20px;
+     }
+
+     /* Clear floats after the columns */
+     section::after{
+	 content:"";
+	 display: table;
+	 clear: both;
+     }
+
+     /* Style the footer */
+     footer {
+	 background-color: #FFF8DC;
+	 padding: 10px;
+	 text-align: center;
+	 color: black;
+     }
+
+     /* Reponsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+     @media (max-width: 600px) {
+	 nav, article {
+	     width: 100%;
+	     height: auto;
+	 }
+     }
+    </style>
+  </head>
+
+  <body>
+
+    <header>
+      <p style="text-align:right; font-size: 35px;"><a href="https://www.codermerlin.com/users/hoang-nguyen/Digital%20Portfolio/index.html"><img src="home logo.png" width="80" height="70"/></a> &nbsp; <a href="https://github.com/preston-hnguyen/preston-hnguyen.github.io"><img src="github.png" alt="github logo" width="80" height="70"/></a></p>          
+      <h2>Me!</h2>
+    </header>
+
+    <section>
+      <nav>
+	<ul>
+	  <h2><a href="index.html">About Me Page</h2>
+	  <h2><a href="Digport.html">Why is digital portfolio important?</a></h2>
+	  <h2><a href="classes.html">Courses</a></h2>
+	</ul>
+      </nav>
+
+      <article>
+	<h1>Who Am I? </h1>
+	<p style="font-family:serif;font-size:20px;"> My name is Hoang Nguyen, but I go by Preston, since that would be easier for teachers or colleagues to call me. I am a junior and really exicted for this school year. For tis year, I am looking forward to find a career path that I am passionate about and would fit me.  I took and am taking jrotc and computer science last year and this year, also architecture design this school year. I take those classes to practice and get fews experiences before applying for my future. Along with that, I want to be able to help and share experience with my colleagues. Furthermore, I am trying to work hard for a good background for my resume for jobs and colleges.</p>
+  <h1>What is my goal this year?</h1>
+	<p style="font-family:serif;font-size:20px;"> I am trying to get a magnificent and impressive grades in this school year. This year would probably be the hardest year in my high school years, but I want achieve what I want in different things, such as clubs, grades, SAT, etc. However, to achieve that I am working on myself to focus more on my works and finish what I need to do. Last year, I struggled a lot, but I learned so many thing last yearto improve my studying. So, this year is to work on myself to be better, get good grades, make a good background and learn new things to do better.</p>
+      </article>      
+    </section>
+
+    <footer>
+      <h3>Thank you for reading!</h3>
+    </footer>
+
+  </body>
+</html>
+
+      
