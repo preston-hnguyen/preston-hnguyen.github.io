@@ -46,6 +46,23 @@
 	 font-size:35px;
      }
 
+     side1 {
+	 float: left;
+	 width: 50%;
+	 background: #FFFAF0;
+	 height: 530px;
+	 font-size: 25px;
+     }
+     
+     side2 {
+	 float: right;
+	 width: 50%;
+	 background: #FFFAF0;
+	 height: 530px;
+	 font-size: 25px;
+     }
+     
+     
      /* Clear floats after the columns */
      section::after{
 	 content:"";
@@ -87,8 +104,16 @@
       </nav>
 
       <article>
-	<p><a href="Fingerprints.html">Fingerprints Essay</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="AI%20Sentience.html">AI Sentience Essay</a></p>
-	<p><iframe src="Fingerprints.html"></iframe>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <iframe src="AI%20Sentience.html"> </iframe> </p>
+	<side1>
+	  <p><a href="Fingerprints.html">Fingerprints Essay</a></p>
+	  <iframe src="Fingerprints.html"></iframe>
+	  <p><a href="Decision%20Making.html">Decision Making Essay</a></p>
+	  <iframe src="Decision%20Making.html"></iframe>
+	</side1>
+
+	<side2>
+	  <p> <a href="AI%20Sentience.html">AI Sentience Essay</a></p>  
+	  <iframe src="AI%20Sentience.html"> </iframe> 
       </article>
       
     </section>

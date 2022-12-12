@@ -46,6 +46,22 @@
 	 font-size:35px;
      }
 
+     side1 {
+	 float: left;
+	 width: 50%;
+	 background: #FFFAF0;
+	 height: 530px;
+	 font-size: 25px;
+     }
+     
+     side2 {
+	 float: right;
+	 width: 50%;
+	 background: #FFFAF0;
+	 height: 530px;
+	 font-size: 25px;
+     }
+     
      /* Clear floats after the columns */
      section::after{
 	 content:"";
@@ -81,15 +97,21 @@
     <section>
       <nav>
 	<ul>
-	  <h2><a href="https://www.codermerlin.com/users/hoang-nguyen/Digital%20Portfolio/index.html">Home Page</a></h2>
 	  <h2><a href="https://www.codermerlin.com/users/hoang-nguyen/Digital%20Portfolio/CS-II/index.html">CS-II Page</a></h2>
 	  <h2><a href="https://www.codermerlin.com/users/hoang-nguyen/Digital%20Portfolio/CS-II/Essays/index.html">Essays</a></h2>
 	</ul>
       </nav>
 
       <article>
-	<p><a href="Optimal%20Sort.html">Optimal Sorting</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.codermerlin.com/users/hoang-nguyen/Digital%20Portfolio/CS-II/Projects/Business%20Plan/index.html">Business Plan</a></p>
-	<p> <iframe src="Optimal%20Sort.html"></iframe>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <iframe src="https://www.codermerlin.com/users/hoang-nguyen/Digital%20Portfolio/CS-II/Projects/Business%20Plan/index.html"> </iframe> </p>
+	<side1>
+	  <p><a href="Optimal%20Sort.html">Optimal Sorting</a></p>
+	  <iframe src="Optimal%20Sort.html"></iframe>
+	</side1>
+
+	<side2>
+	  <p><a href="https://www.codermerlin.com/users/hoang-nguyen/Digital%20Portfolio/CS-II/Projects/Business%20Plan/index.html">Business Plan</a></p>
+	  <iframe src="https://www.codermerlin.com/users/hoang-nguyen/Digital%20Portfolio/CS-II/Projects/Business%20Plan/index.html"> </iframe>
+	  </side2>
       </article>
       
     </section>
