@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>ISP</title>
+    <title>Symptoms Quiz</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, intial-scale=1">
     <style>
@@ -9,7 +9,7 @@
 	 box-sizing: border-box;
      }
      body {
-	 background-color:#ac7339;
+	 background-color: #ac7339;
      }
 
      /*Style the header */
@@ -24,28 +24,41 @@
      nav {
 	 padding: 10px;
 	 background: #FAEBD7;
-	 text-align: center;
+	 text-align : center;
      }
-
-     side1 {
-	 float: left;
-	 width: 50%;
-	 background: #FFFAF0;
-	 height: 730px;
-	 font-size: 25px;
-	 text-align:center;
-     }
-
-     side2 {
-	 float: right;
-	 width: 50%;
-	 background: #FFFAF0;
-	 height: 730px;
-	 font-size: 25px;
-	 text-align:center;
-     }
-	 
      
+     aside {
+	 float: left;
+	 width: 30%;
+	 height: 350px;
+	 background: #FFEBCD;
+	 padding: 20px;
+	 text-align: center;
+	 font-size: 30px;
+     }
+
+     /* Style the list inside the menu */
+     nav ul {
+	 list-style-type: none;
+	 padding: 0;
+     }
+
+     article {
+     	 float: right;
+	 width: 70%;
+	 height: 350px;
+	 background-color: #FFFAF0;
+	 padding: 20px;
+	 text-align: center;
+	 font-size:28px;
+     }
+
+     /* Clear floats after the columns */
+     section::after{
+	 content:"";
+	 display: table;
+	 clear: both;
+     }
 
      /* Style the footer */
      footer {
@@ -55,7 +68,7 @@
 	 color: black;
      }
 
-     /* Reponsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+0     /* Reponsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
      @media (max-width: 600px) {
 	 nav, article {
 	     width: 100%;
@@ -69,25 +82,23 @@
 
     <header>
       <p style="text-align:right; font-size: 35px;"><a href="https://www.codermerlin.com/users/hoang-nguyen/Digital%20Portfolio/index.html"><img src="home logo.png" width="80" height="70"/></a> &nbsp; <a href="https://github.com/preston-hnguyen/preston-hnguyen.github.io"><img src="github.png" alt="github logo" width="80" height="70"/></a></p>          
-      <h1>ISP Project</h1>
+      <h1>Symptoms Quiz</h1>
+      <p style="font-size: 30px;">By: <a href="https://www.codermerlin.com/users/tejasvi-gutta/Digital%20Portfolio/CS-II/Projects/ISP/index.html">Tejasvi Gutta</a>,<a href="https://www.codermerlin.com/users/andrew-nguyen/Digital%20Portfolio/index.html"> Andrew Nguyen </a>, <a href="https://codermerlin.com/users/shreya-kumar/Digital%20Portfolio/index.html">Shreya Kumar </a>, <a href="https://www.codermerlin.com/users/melanie-lopez-de-nava-reza/Digital%20Portfolio/index.html"> Melanie Lopez De Nava Reza </a>, and <a href="index.html">Preston Nguyen</a>.</p>
     </header>
 
     <nav>
       <h2><a href="https://www.codermerlin.com/users/hoang-nguyen/Digital%20Portfolio/CS-II/index.html">CS-II Page</a> &nbsp;&nbsp; <a href="https://www.codermerlin.com/users/hoang-nguyen/Digital%20Portfolio/CS-II/Projects/index.html">Projects Page</a></h2>
-      </nav>
+    </nav>
     
     <section>
-      
-      
-	<side1>
-	  <p><a href="Journal.html"><b>Journal</b></a></p>
-	  <iframe src="Journal.html"></iframe>
-	</side1>
+      <aside>
+	<p><a href="Journal.html"><b>Journal</b></a></p>
+	<iframe src="Journal.html"></iframe>
+      </aside>
 
-	<side2>
-	</side2>
-      
-      
+      <article>
+	<p>This year, my team decided to make a website called "Symptoms Quiz" for our ISP. It complies most common illnesses and diseases that everyone can get. You just need to put in the information of how you feel into one quiz to see what kind of illness you have. It is going to ask to check your age, gender, and any disorders/diseases you have or others of your family members might be carrying around, which may as well be in your genetics. With thoses informations, you would most likely to get closest and most accurate result. <p>
+      </article>      
     </section>
 
     <footer>
